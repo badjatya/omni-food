@@ -17,3 +17,23 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* HEADER STARTS  */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705) , rgba(0, 0, 0, 0.705)) , url(./img/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header .head-text-box h1{
+    margin: 0;
+}
+
+.head-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

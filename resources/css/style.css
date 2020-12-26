@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary-orange-color: #e67e22;
+    --secondary-orangeDark-color: #cf6d17;
+}
+
 html{
     background-color: #fff;
     color: #555;
@@ -18,8 +23,44 @@ html{
     margin: 0 auto;
 }
 
-/* HEADER STARTS  */
+/* -------------HEADER STARTS-------------  */
 
+    /* -------------HEADER NAVIGATION STARTS-------------  */
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+}
+
+.main-nav li{
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.main-nav li a:link, .main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+    /* -------------HEADER NAVIGATION ENDS-------------  */
+
+
+
+    /* -------------HEADER heading STARTS-------------  */
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.705) , rgba(0, 0, 0, 0.705)) , url(./img/hero.jpg);
     height: 100vh;
@@ -42,10 +83,12 @@ header .head-text-box h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-80%, -50%);
 }
+    /* -------------HEADER heading ENDS-------------  */
 
-    /* BUTTON UNDER HEADING  */
+
+    /* -------------BUTTON UNDER HEADING STARTS------------- */
 
 .btn:link , .btn:visited{
     display: inline-block;
@@ -81,3 +124,7 @@ header .head-text-box h1{
     color: #fff;
     border: 1px solid #cf6d17;
 }
+
+    /* -------------BUTTON UNDER HEADING ENDS-------------  */
+
+/* -------------HEADER ENDS-------------  */

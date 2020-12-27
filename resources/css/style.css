@@ -17,6 +17,16 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 
 /* ----------REUSABLE COMPONENTS STARTS ----------  */
 .row{
@@ -176,6 +186,10 @@ header{
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 /* -------------SECTION FEATURE STARTS-------------  */
+.section-steps{
+    background-color: #f2f2f2;
+}
+
 .box p{
     line-height: 145%;
     font-size: 90%;
@@ -230,3 +244,52 @@ header{
     opacity: 1;
 }
 /* -------------SECTION MEALS ENDS-------------  */
+
+
+/* -------------SECTION STEPS STARTS-------------  */
+
+.steps-box:first-child{
+    text-align: right;
+    padding: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 85px;
+}
+
+.app-screen{
+    width: 40%;
+}
+
+.work-step{
+    margin-bottom: 50px;
+}
+
+.work-step div{
+    color: #e67e22;
+    display: inline-block;
+    border: 2px solid #e67e22;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    float: left;
+    margin-right: 25px;
+    font-weight: 300;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.work-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+/* -------------SECTION STEPS ENDS-------------  */

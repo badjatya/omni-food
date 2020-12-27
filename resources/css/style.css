@@ -130,6 +130,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -295,6 +296,8 @@ header{
 
 /* -------------SECTION STEPS ENDS-------------  */
 
+/* -------------SECTION CITIES STARTS-------------  */
+
 .box img{
     width: 100%;
     height: auto;
@@ -327,3 +330,9 @@ header{
     color: #555;
     border-bottom: 1px solid transparent;
 }
+/* -------------SECTION CITIES ENDS-------------  */
+
+/* -------------SECTION STEPS STARTS-------------  */
+
+
+/* -------------SECTION STEPS ENDS-------------  */

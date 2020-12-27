@@ -84,6 +84,7 @@ h2::after{
 section{
     padding: 80px 0;
 }
+
 /* ----------REUSABLE COMPONENTS ENDS ----------  */
 
 /* -------------HEADER STARTS-------------  */
@@ -293,3 +294,36 @@ header{
 }
 
 /* -------------SECTION STEPS ENDS-------------  */
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+.icon-small{
+    font-size: 120%;
+    display: inline-block;
+    color: #e67e22;
+    text-align: center;
+    width: 40px;
+    margin-right: 10px;
+
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.city-feature a{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #e67e22;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+.city-feature a:hover{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}

@@ -333,6 +333,40 @@ header{
 /* -------------SECTION CITIES ENDS-------------  */
 
 /* -------------SECTION STEPS STARTS-------------  */
+.section-testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.705)), url(./img/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
 
+blockquote{
+    font-style: italic;
+    line-height: 145%;
+    padding: 2%;
+    position: relative;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite{
+    display: block; 
+    margin-top: 25px;
+    font-size: 90%;
+}
+
+cite img{
+   height: 45px;
+   border-radius: 50%; 
+   vertical-align: middle;
+   margin: 10px;
+}
 
 /* -------------SECTION STEPS ENDS-------------  */

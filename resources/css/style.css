@@ -370,3 +370,56 @@ cite img{
 }
 
 /* -------------SECTION STEPS ENDS-------------  */
+
+
+/* -------------SECTION SIGN-UP ENDS-------------  */
+.section-plans{
+    background-color: #f2f2f2;
+}
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 5%;
+    width: 90%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+
+
+.plan-price{
+    color: #e67e22;
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-month{
+    font-size: 80%;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border-bottom: 0;
+}
+/* -------------SECTION SIGN-UP STARTS-------------  */

@@ -181,6 +181,10 @@ header{
     font-size: 90%;
 }
 
+.section-feature .long-copy{
+    margin-bottom: 30px;
+}
+
 .icon-big{
     font-size: 250%;
     color: var(--primary-orange-color);
@@ -188,3 +192,41 @@ header{
     margin-bottom: 10px;
 }
 /* -------------SECTION FEATURE ENDS-------------  */
+
+
+/* -------------SECTION MEALS STARTS-------------  */
+.section-meal{
+    padding: 0;
+}
+
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li{
+    width: 25%;
+    float: left;
+    height: auto;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.meal-photo img{
+    
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+/* -------------SECTION MEALS ENDS-------------  */

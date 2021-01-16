@@ -179,7 +179,7 @@ section {
 /* -------------HEADER heading STARTS-------------  */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
-    url(./img/hero.jpg);
+    url(./img/hero-compressed.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -393,7 +393,7 @@ input[type="submit"]:active {
 /* -------------SECTION STEPS STARTS-------------  */
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
-    url(./img/back-customers.jpg);
+    url(./img/back-customers-compressed.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
